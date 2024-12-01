@@ -1,0 +1,84 @@
+## FIGURE PROPERTIES
+#figure.figsize : 6.4, 4.8
+#figure.dpi         : 300 
+figure.autolayout : True
+#figure.subplot.wspace: 0.2
+#figure.subplot.hspace: 0.2
+#figure.constrained_layout.use: True
+#figure.constrained_layout.h_pad:  0.2
+#figure.constrained_layout.w_pad:  0.2
+
+## SAVE FIGURE PROPERTIES
+savefig.dpi : 300
+savefig.bbox: tight
+savefig.pad_inches:   0.1
+
+# Axes
+axes.linewidth:  1.0
+
+# Fonts
+axes.titlesize : 18
+axes.labelsize : 18
+#axes.labelpad : 6
+xtick.labelsize : 18
+ytick.labelsize : 18
+
+# Lines
+lines.linewidth: 1.0
+lines.dashed_pattern: 5, 5
+
+# Marker
+lines.markersize : 10
+lines.markeredgewidth: 1.0
+
+# Ticks
+xtick.direction : in
+ytick.direction : in
+
+xtick.top : True
+xtick.bottom : True
+ytick.left : True
+ytick.right : True
+xtick.minor.visible : True
+ytick.minor.visible : True
+xtick.major.size : 8
+ytick.major.size : 8
+xtick.minor.size : 3
+ytick.minor.size : 3
+xtick.major.width : 1.0
+xtick.minor.width : 1.0
+ytick.major.width : 1.0
+ytick.minor.width : 1.0
+
+# Legend
+legend.markerscale   : 1.0 
+legend.fontsize      : 18
+legend.loc           : best
+legend.frameon       : True
+legend.framealpha    : 1.0
+legend.edgecolor     : 0.0
+legend.title_fontsize : 18
+legend.fancybox 	: True
+legend.numpoints : 1
+
+#font.family: Times New Roman
+#font.serif: CMU Serif
+
+#mathtext.default : regular
+#mathtext.fallback : cm
+#mathtext.fontset : cm 
+
+mathtext.default : it
+mathtext.fallback : stix
+mathtext.fontset : stix
+
+axes.unicode_minus : False
+
+## GRIDS  
+#grid.color     : A9A9A9
+grid.color     : 000000
+grid.linestyle : --
+grid.linewidth : 0.6
+grid.alpha     : 1.0
+
+
